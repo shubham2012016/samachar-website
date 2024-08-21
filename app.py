@@ -3,7 +3,7 @@ from flask import Flask, render_template
 from googlesearch import search
 import newspaper
 
-keyword = search("banking sector today",num_results=3)
+keyword = search("banking sector today",num_results=1)
 urls = []
 url_length = []
 data=[]
