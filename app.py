@@ -3,7 +3,7 @@ from flask import Flask, render_template
 from googlesearch import search
 import newspaper
 
-keyword = search("banking sector today")
+keyword = search("banking sector today",num_results=3)
 urls = []
 url_length = []
 data=[]
@@ -24,4 +24,3 @@ app = Flask(__name__,template_folder="C:/Users/Dell/Desktop/newsdata/templates",
 @app.route("/")
 def home():
     return render_template("index.html",data=generated_data)
-    # return jsonify(generated_data)
