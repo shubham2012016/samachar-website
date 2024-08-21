@@ -1,0 +1,24 @@
+body{
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+}
+ul{
+    list-style: none;
+}
+#collected-data{
+    background-color: white;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 20px;
+    text-align: center;
+}
+#collected-data a{
+    text-decoration: none;
+    color: black;
+}
